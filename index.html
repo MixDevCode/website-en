@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MixDev - Portfolio</title>
+  <!-- Meta OG Properties -->
+  <meta property="og:title" content="MixDev">
+  <meta property="og:description" content="Just a guy trying to do something :)">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/66272629?v=4">
+  <meta property="og:image:alt" content="GitHub PFP">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mixdev.online/">
+  <!-- End of Meta OG Properties-->
+  <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@5/dark.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/terminal.css">
+  <link rel="stylesheet" href="assets/css/baguetteBox/baguetteBox.min.css">
+
+</head>
+
+<body data-bs-theme="dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#container">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cv">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End of Navbar -->
+  <div class="content">
+    <!-- Terminal -->
+    <div id="container" class="terminal-body">
+      <div id="terminal">
+        <!-- Terminal Bar -->
+        <section id="terminal__bar">
+          <div id="bar__buttons">
+            <button class="bar__button" id="bar__button--exit">&#10005;</button>
+            <button class="bar__button">&#9472;</button>
+            <button class="bar__button">&#9723;</button>
+          </div>
+          <p id="bar__user">mixdev@ubuntu: ~</p>
+        </section>
+        <!-- Terminal Body -->
+        <section id="terminal__body">
+          <div id="terminal__prompt" class="terminal__prompt">
+            <span id="terminal__prompt--user">mixdev@ubuntu:</span>
+            <span id="terminal__prompt--location">~</span> </span>
+            <span id="terminal__prompt--bling">$&nbsp;</span>
+            <span id="terminal__prompt--text"></span>
+          </div>
+          <div id="terminal__prompt-2" class="terminal__prompt text-wrap">
+            <span id="terminal__prompt--text-2" style="white-space: pre-wrap;"></span>
+          </div>
+          <div id="terminal__prompt-3" class="terminal__prompt text-wrap" style="display: none;">
+            <p style="margin-top: auto;">
+              <span id="terminal__prompt--user">mixdev@ubuntu:</span><span id="terminal__prompt--location">~</span><span
+                id="terminal__prompt--bling">$&nbsp;</span><span id="terminal__prompt--text-3" contenteditable="true"
+                style="white-space: pre-wrap;">&#8203;</span>
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- End of Terminal -->
+    <!-- About me section -->
+    <div class="section" id="about">
+      <h2 class="banner">Sobre mí</h2>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img src="assets/img/me.jpg" class="card-img-top" alt="Yo mismo">
+              <div class="card-body text-center">
+                <p class="card-text text-body-secondary">This is me with one of the mascots of the house</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-9 mt-2">
+            <p style="text-align: justify">Hello everyone! I'm Lucas Scifo, a programming enthusiast with over a decade of experience in this exciting world. I was born and raised in Monte Caseros, Corrientes, Argentina, where I immersed myself in the fascinating universe of computer science from an early age.
+              <br>
+              <br>
+              My education includes obtaining a degree as a Computer Technician, and more recently, I graduated as a Superior Technician in Software Development. Throughout my career, I have acquired knowledge through various courses, excelling in areas such as PC Maintenance and Repair, Fullstack PHP, and Audio and Video Repair (Electronics). Although my background is broad, my focus is primarily on programming, where I find my true passion and strength.
+              <br>
+              <br>
+              My work approach is characterized by efficiency and effective problem-solving. I specialize in challenging projects and enjoy the creativity that arises when facing new challenges. My ability to work under pressure and adapt to dynamic environments are aspects I have perfected throughout my career.
+              <br>
+              <br>
+              In addition to my commitment to programming, I have a particular fondness for simple and quick games, reflecting my desire to find ingenious solutions promptly. I am excited about the opportunities that the programming work offers, and I am ready to contribute my experience and grow professionally in this exciting field.
+              <br>
+              <br>
+              If you are interested in learning more about my work and projects, I invite you to explore my website. Welcome to my digital space!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of About me section -->
+    <!-- Projects section -->
+    <div class="section" id="projects">
+      <h2 class="banner">Proyectos</h2>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <a href="assets/img/projects/alimpuestos.png"
+                data-caption="Una calculadora de impuestos para compras en tiendas internacionales ya sea AliExpress, Amazon, Wish, Ebay, etc.">
+                <img src="assets/img/projects/alimpuestos.png" class="card-img-top">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Alimpuestos</h5>
+                <p class="card-text">A tax calculator for purchases in international stores such as AliExpress, Amazon, Wish, or Ebay, using a custom API built with Express.</p>
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/MixDevOnline/alimpuestos" class="btn btn-secondary" target="_blank">Repository</a>
+                  <a href="https://alimpuestos.com.ar/" class="btn btn-secondary ms-2" target="_blank">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <a href="assets/img/projects/muni.png"
+                data-caption="Sistema de Gestión de Capacitación de Cursos hecho en PHP para la Municipalidad de Monte Caseros.">
+                <img src="assets/img/projects/muni.png" class="card-img-top">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Training Course Management System</h5>
+                <p class="card-text">Training Course Management System developed in PHP for the Municipality of Monte Caseros.</p>
+                <div class="d-flex justify-content-end">
+                  <button class="btn btn-secondary disabled">Private Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <a href="assets/img/projects/tesoro.png"
+                data-caption='Proyecto realizado en el marco de la "Semana de la Ciencia y la Tecnología" utilizando PHP y Javascript.'>
+                <img src="assets/img/projects/tesoro.png" class="card-img-top">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Treasure Hunt using QR Codes</h5>
+                <p class="card-text">Project carried out as part of the "Science and Technology Week" using PHP and Javascript.<br></br></p>
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/MixDevCode/proyecto-practica-tesoro" class="btn btn-secondary"
+                    target="_blank">Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <a href="assets/img/projects/tinysite.png"
+                data-caption="Página web para promocionar un bot de Discord junto a sus términos de uso y de recopilación de datos.">
+                <img src="assets/img/projects/tinysite.png" class="card-img-top">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">TinyBot Website</h5>
+<p class="card-text">Website designed to promote a Discord bot along with its terms of use and data collection policy.</p>
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/MixDevCode/tiny-website" class="btn btn-secondary" target="_blank">Repository</a>
+                  <a href="https://mixdevcode.github.io/tiny-website/" class="btn btn-secondary ms-2" target="_blank">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <a href="assets/img/projects/animeflv.png"
+                data-caption="Librería hecha en TS para obtener información de la página conocida como AnimeFLV utilizando el método de Webscrapping.">
+                <img src="assets/img/projects/animeflv.png" class="card-img-top">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">AnimeFLV Scraper</h5>
+<p class="card-text">TS-built NPM library for retrieving information from the website known as AnimeFLV using the Web scraping method.</p>
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/MixDevCode/animeflv-api" class="btn btn-secondary" target="_blank">Repository</a>
+                  <a href="https://www.npmjs.com/package/animeflv-api" class="btn btn-secondary ms-2" target="_blank">NPM</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <a href="assets/img/projects/resume.png"
+                data-caption="Página web que realicé anteriormente con el mismo propósito que esta, con un diseño más simple ofreciendo solamente formas de contacto.">
+                <img src="assets/img/projects/resume.png" class="card-img-top">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Bilingual Business Card</h5>
+<p class="card-text">Website I created with the same purpose as this one but with a simpler design, offering only contact information.</p>
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/MixDevCode/resume-card" class="btn btn-secondary" target="_blank">Repository</a>
+                  <a href="https://mixdevcode.github.io/resume-card/" class="btn btn-secondary ms-2" target="_blank">Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <a href="assets/img/projects/wjs-base-handler.png"
+                data-caption='Plantilla hecha utilizando Node.JS y la librería "whatsapp-web.js" para la creación de bots de Whatsapp.'>
+                <img src="assets/img/projects/wjs-base-handler.png" class="card-img-top">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">WhatsApp Bot Template</h5>
+<p class="card-text">Template created using Node.JS and the "whatsapp-web.js" library for the development of WhatsApp bots.</p>
+                <div class="d-flex justify-content-end">
+                  <a href="https://github.com/MixDevCode/wjs-base-handler" class="btn btn-secondary" target="_blank">Repository</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Projects section -->
+    <!-- Education section -->
+    <div class="section" id="education">
+      <h2 class="banner">Education</h2>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-sm-12 mt-2">
+            <div class="main-timeline">
+
+              <!-- start experience section-->
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <span class="year">2023</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">Superior Technician in Software Development</h5>
+                  <ul>
+                    <li>HTML, CSS, JS, PHP, C#, Python, SQL</li>
+                  </ul>
+                  <p class="description">
+                    A 3-year program, graduated with honors with an average of 9.85 out of 10.
+                    <br>
+                    <br>
+                    <b>instituto Superior de Formación Docente Ramón J. Cárcano</b>
+                  </p>
+                </div>
+              </div>
+              <!-- end experience section-->
+              
+              <!-- start experience section-->
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <span class="year">2022</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">Fullstack PHP</h5>
+                  <ul style="direction: rtl;">
+                    <li>HTML, CSS, JS, PHP, MySQL</li>
+                    <li>Bootstrap 5</li>
+                  </ul>
+                  <p class="description">
+                    A 6-month course conducted virtually.
+                    <br>
+                    <br>
+                    <b>Comunidad Codo a Codo</b>
+                  </p>
+                </div>
+              </div>
+              <!-- end experience section-->
+              
+              <!-- start experience section-->
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <span class="year">2020</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">Technical Degree in Professional and Personal Computing</h5>
+                  <p class="description">
+                    Secondary degree.
+                    <br>
+                    <br>
+                    <b>Escuela Técnica Pedro Ferré</b>
+                  </p>
+                </div>
+              </div>
+              <!-- end experience section-->
+              
+              <!-- start experience section-->
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <span class="year">2019</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">Audio and Video Repair</h5>
+                  <ul style="direction: rtl;">
+                    <li>Fault Diagnosis in Boards</li>
+                    <li>Soldering Iron Handling</li>
+                  </ul>
+                  <p class="description">
+                    Professional Training Course with a duration of 1 year.
+                    <br>
+                    <br>
+                    <b>Escuela Técnica Pedro Ferré</b>
+                  </p>
+                </div>
+              </div>
+              <!-- end experience section-->
+              
+              <!-- start experience section-->
+              <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                  <div class="date-outer">
+                    <span class="date">
+                      <span class="year">2014</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="timeline-content">
+                  <h5 class="title">PC Repair and Maintenance</h5>
+                  <ul>
+                    <li>OS Installation and Configuration (Linux, Windows)</li>
+                    <li>Hardware Diagnosis and Maintenance</li>
+                  </ul>
+                  <p class="description">
+                    Presential course with a duration of 6 months.
+                    <br>
+                    <br>
+                    <b>Informatic Training Center (I.T.C.)</b>
+                  </p>
+                </div>
+              </div>
+              <!-- end experience section-->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of CV section -->
+    <!-- CV section -->
+    <div class="section" id="cv">
+      <h2 class="banner">CV</h2>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="card">
+              <a href="assets/img/cv.png" data-caption="Curriculum Vitae en Formato de Imagen">
+                <img src="assets/img/cv.png" class="card-img-top" alt="Curriculum Vitae">
+              </a>
+              <div class="card-body text-center">
+                <p class="card-text text-body-secondary">Curriculum Vitae in Image Format</p>
+              </div>
+            </div>
+            <hr>
+            <a class="btn btn-secondary btn-lg form-control" href="assets/cv.pdf" target="_blank">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of CV section -->
+  <!-- Contact section -->
+  <div class="section" id="contact">
+    <h2 class="banner">Contacto</h2>
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-md-8 mt-2">
+          <p>
+            Do you want to reach out for potential collaborations or learn more about any projects?
+            <br>
+            <br>
+            We can discuss programming, design, games, anime, and more.
+          </p>
+          <a href="https://api.whatsapp.com/send/?phone=5493775437128&text=Hola!%20Te hablo%20desde%20tu%20sitio%20web"
+            target="_blank" class="btn btn-circle btn-circle-xl me-3 ms-3 mt-5 mb-5" style="background-color: #128C7E;"><i
+              class="bi bi-whatsapp"></i></a>
+          <a href="#" onclick="discordToClipboard(); return false;" class="btn btn-circle btn-circle-xl me-3 ms-3 mt-5 mb-5"
+            style="background-color: #7289DA;"><i class="bi bi-discord"></i></a>
+          <a href="https://www.linkedin.com/in/lucas-scifo" target="_blank"
+            class="btn btn-circle btn-circle-xl me-3 ms-3 mt-5 mb-5" style="background-color: #0077B5;"><i
+              class="bi bi-linkedin"></i></a>
+          <a href="https://t.me/mixDC" target="_blank" class="btn btn-circle btn-circle-xl me-3 ms-3 mt-5 mb-5"
+            style="background-color: #229ED9;"><i class="bi bi-telegram"></i></a>
+          <a href="https://www.facebook.com/lucass.fs" target="_blank"
+            class="btn btn-circle btn-circle-xl me-3 ms-3 mt-5 mb-5" style="background-color: #4267B2;"><i
+              class="bi bi-facebook"></i></a>
+          <a href="https://github.com/mixdevcode" target="_blank" class="btn btn-circle btn-circle-xl ms-3 mt-5 mb-5"
+            style="background-color: #2b3137;"><i class="bi bi-github"></i></a>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <form action="https://formspree.io/f/xrgnzvpj" method="POST" id="contactForm">
+                <div class="mb-3">
+                  <label for="correo" class="form-label">Email</label>
+                  <input type="email" class="form-control" name="email" id="correo" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="mensaje" class="form-label">Message</label>
+                  <textarea class="form-control" id="mensaje" name="message" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary form-control">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of Contact section -->
+  <footer class="footer mt-auto py-3 text-center" id="footer">
+    <div class="container">
+      <span class="text-muted">Copyright © 2024 <a href="https://github.com/MixDevCode/" target="_blank"
+          class="text-decoration-none">MixDevCode</a></span>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/interactjs@1.10.26/dist/interact.min.js"></script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+  <script src="assets/js/terminal.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/baguetteBox/baguetteBox.min.js"></script>
+  <script src="assets/js/form.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
