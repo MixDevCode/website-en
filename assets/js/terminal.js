@@ -2,7 +2,7 @@ let typed, typed2, typed3;
 
 // Write to terminal
 typed = new Typed("#terminal__prompt--text", {
-  strings: ["node hola.js^2000"],
+  strings: ["node hello.js^2000"],
   cursorChar: "▐",
   typeSpeed: 40,
   backSpeed: 0,
@@ -11,7 +11,7 @@ typed = new Typed("#terminal__prompt--text", {
     self.cursor.remove();
     typed2 = new Typed("#terminal__prompt--text-2", {
       strings: [
-        '\n<h1>Hola! Me llamo Lucas.</h1>^1000\n<h3>Soy Desarrollador de Software, actualmente graduado como <b>Técnico Superior en Desarrollo de Software</b>.</h3>^1000\n<h3>Tengo 21 años y soy <b>apasionado</b> por la programación (prueba de ello en mi <a href="https://github.com/MixDevCode/" class="text-decoration-none" target="_blank">GitHub</a>).</h3>^1000<h3>He realizado proyectos en lenguajes como NodeJS, PHP, C# y Python, puedes ver algunos de mis proyectos dándole click <a href="#" onClick="moveToProjects();return false;" class="text-decoration-none">aquí</a>.</h3>^1000',
+        '\n<h1>Hello! My name is Lucas.</h1>^1000\n<h3>I am a Software Developer, currently graduated as a <b>Superior Technician in Software Development</b>.</h3>^1000\n<h3>I am 21 years old and <b>passionate</b> about programming (evidenced by my <a href="https://github.com/MixDevCode/" class="text-decoration-none" target="_blank">GitHub</a>).</h3>^1000<h3>I have worked on projects using languages like NodeJS, PHP, C#, and Python; you can check out some of my projects by clicking <a href="#" onClick="moveToProjects();return false;" class="text-decoration-none">here</a>.</h3>^1000',
       ],
       typeSpeed: 0,
       loop: false,
